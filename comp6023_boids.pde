@@ -1,7 +1,7 @@
 
 // flock parameters (population size, leader size, number of goals)
 int init_pop_size = 500;
-int init_leader_size = 5;
+int init_leader_size = 0;
 PVector preferred_direction = PVector.random2D();
 
 // declare flock object
